@@ -1,13 +1,11 @@
 import './App.css';
-import { titulo } from './components/titulo';
+import { Parrafo } from './components/Parrafo';
 
 function App() {
     return (
         <main>
             <div>
-                <p>
-                    <titulo />
-                </p>
+                <Parrafo />
             </div>
         </main>
     );
